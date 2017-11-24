@@ -13,6 +13,7 @@
 		8BE91D031FC838E300D0EBE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BE91D021FC838E300D0EBE8 /* Assets.xcassets */; };
 		8BE91D061FC838E300D0EBE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BE91D041FC838E300D0EBE8 /* LaunchScreen.storyboard */; };
 		8BE91D091FC838E300D0EBE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE91D081FC838E300D0EBE8 /* main.m */; };
+		8BE91D141FC83A3200D0EBE8 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE91D131FC83A3200D0EBE8 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		8BE91D051FC838E300D0EBE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BE91D071FC838E300D0EBE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BE91D081FC838E300D0EBE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BE91D121FC83A3200D0EBE8 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		8BE91D131FC83A3200D0EBE8 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		8BE91CF81FC838E300D0EBE8 /* testCommitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8BE91D121FC83A3200D0EBE8 /* TestView.h */,
+				8BE91D131FC83A3200D0EBE8 /* TestView.m */,
 				8BE91CF91FC838E300D0EBE8 /* AppDelegate.h */,
 				8BE91CFA1FC838E300D0EBE8 /* AppDelegate.m */,
 				8BE91CFC1FC838E300D0EBE8 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE91D141FC83A3200D0EBE8 /* TestView.m in Sources */,
 				8BE91CFE1FC838E300D0EBE8 /* ViewController.m in Sources */,
 				8BE91D091FC838E300D0EBE8 /* main.m in Sources */,
 				8BE91CFB1FC838E300D0EBE8 /* AppDelegate.m in Sources */,
